@@ -1,0 +1,33 @@
+# Local environments, caches and build tools
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+node_modules/
+.next/
+.DS_Store
+
+# Private shoot data, local experiments, generated corrections and build artifacts
+_work/
+deliverables/
+dist/
+inputs/
+outputs/
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.tif
+*.tiff
+*.blend
+*.blend1
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+.git-credentials

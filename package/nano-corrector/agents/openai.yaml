@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nano Corrector"
+  short_description: "Match studio background whites with visual checks"
+  default_prompt: "Use $nano-corrector to match this batch's studio background whites to my reference and verify the saved results."

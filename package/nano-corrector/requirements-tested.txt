@@ -1,0 +1,5 @@
+# Exact environment used for the AC-01 workflow and package validation (Python 3.12).
+numpy==2.5.4
+Pillow==12.3.0
+scipy==1.18.1
+opencv-python-headless==5.0.0.93

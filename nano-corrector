@@ -1,0 +1,4 @@
+#!/bin/sh
+# Runs the CLI with the project's venv, from anywhere.
+HERE="$(cd "$(dirname "$0")" && pwd)"
+PYTHONPATH="$HERE/src" exec "$HERE/.venv/bin/python" -m nano_corrector "$@"
