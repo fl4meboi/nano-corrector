@@ -31,3 +31,6 @@ outputs/
 *.key
 credentials*.json
 .git-credentials
+
+# Example before/after images used in the README
+!docs/examples/*.jpg
