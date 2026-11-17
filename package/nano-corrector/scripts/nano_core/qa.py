@@ -78,7 +78,7 @@ def thumbnail(rgb, patches=None):
 
 
 def sheets(items, directory, prefix='before-after'):
-    # Every item is shown, in pages of six pairs; no assumptions about AC-01 names/count.
+    # Every item is shown in pages of six pairs, independent of batch size.
     files = []
     for start in range(0, len(items), 6):
         page = items[start:start+6]

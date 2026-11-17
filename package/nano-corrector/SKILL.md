@@ -88,8 +88,8 @@ investigating a mismatch. In particular:
 ## Scope
 
 Runs locally without accounts, cloud uploads, image-generation services, or paid
-APIs. Runtime packages are listed in requirements.txt. Tested on the AC-01 studio
-set and synthetic checks; inspect each new shoot. Supports still 8-bit RGB/grayscale
+APIs. Runtime packages are listed in requirements.txt. Synthetic checks cover the
+implementation; inspect each new shoot. Supports still 8-bit RGB/grayscale
 JPEG/PNG; rejects transparency, high-bit-depth PNG, animation and unsupported modes.
 Untagged input is assumed sRGB; embedded profiles are converted to sRGB. Matching
 is smoothly restricted by brightness/chroma, not semantic segmentation: pale

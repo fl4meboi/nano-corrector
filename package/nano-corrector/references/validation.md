@@ -7,12 +7,8 @@ Validated on macOS with Python 3.12 and requirements-tested.txt versions.
   external/included references, paths with spaces, different working directory,
   optional JPEGs, source preservation, existing-output/collision protection,
   unsupported inputs, EXIF orientation and embedded profile handling.
-- Full AC-01 rerun: all 12 packaged PNGs were pixel-identical to the reviewed
-  final background correction. Original dimensions retained; L remained unchanged.
 - Before/after sheets, sample locations, focus group and a native-resolution
   original/PNG/JPEG boundary comparison were visually inspected.
-- Sharing JPEGs: about 17 MB total versus 71 MB for the PNG masters in that set.
-  This is an example, not an expected compression ratio for every shoot.
 - Skill frontmatter passed the skill-creator validator. The ZIP excludes input
   photos, environments, caches and local reports.
 
